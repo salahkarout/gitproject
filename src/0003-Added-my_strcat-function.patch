@@ -1,0 +1,31 @@
+From d8e7d89c9ff6686856397e2d6d78df700a9b88fd Mon Sep 17 00:00:00 2001
+From: salahkarout <s_karout@hotmail.co.uk>
+Date: Mon, 4 Jul 2016 15:47:17 +0100
+Subject: [PATCH 3/3] Added my_strcat function
+
+---
+ src/string_operations.c | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/src/string_operations.c b/src/string_operations.c
+index 68f7abc..bc655f6 100644
+--- a/src/string_operations.c
++++ b/src/string_operations.c
+@@ -33,6 +33,7 @@ int main(void)
+ 		"Tutorials Point"
+ 	};
+ 
++
+ 	for (i = 0; i < 2; ++i)
+ 
+ 		printf("string lenght of %s = %lu\n", s[i], my_strlen(s[i]));
+@@ -40,4 +41,4 @@ int main(void)
+         printf("%s\n", my_strcpy(p1, "Hello, World !!!"));
+ 
+ 	return 0;
+-}
+\ No newline at end of file
++}
+-- 
+2.7.2.windows.1
+

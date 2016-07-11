@@ -39,6 +39,8 @@ int main(void)
 		printf("string lenght of %s = %lu\n", s[i], my_strlen(s[i]));
 
         printf("%s\n", my_strcpy(p1, "Hello, World !!!"));
+	
+	printf("End of program\n");
 
 	return 0;
 }
