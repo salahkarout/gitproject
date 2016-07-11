@@ -1,0 +1,25 @@
+From b1057632637142a4112c5a1f2eb5d253c7592a02 Mon Sep 17 00:00:00 2001
+From: salahkarout <s_karout@hotmail.co.uk>
+Date: Mon, 11 Jul 2016 14:48:06 +0100
+Subject: [PATCH] Added a printf statement
+
+---
+ src/string_operations.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/string_operations.c b/src/string_operations.c
+index be51d21..793b1e8 100644
+--- a/src/string_operations.c
++++ b/src/string_operations.c
+@@ -40,6 +40,8 @@ int main(void)
+ 		printf("string lenght of %s = %lu\n", s[i], my_strlen(s[i]));
+ 
+         printf("%s\n", my_strcpy(p1, "Hello, World !!!"));
++	
++	printf("End of program\n");
+ 
+ 	return 0;
+ }
+-- 
+2.7.2.windows.1
+
